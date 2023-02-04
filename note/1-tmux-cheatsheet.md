@@ -56,6 +56,17 @@ x  kill pane
 <prefix> z toggle pane zoom
 ```
 
+### Copy - Paste
+```
+Ctrl b [    enter copy mode
+Ctrl b ]    paste to tmux terminal
+space       start selection
+enter       copy selection
+shift v (V) select row
+y           select
+shift y (Y) copy selection
+q           quit copy mode
+```
 ### Misc
 ```
 d  detach
