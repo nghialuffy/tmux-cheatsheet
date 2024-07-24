@@ -77,7 +77,10 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo web-search command-not-found)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting command-not-found sudo)
+
+# pkgfile
+source /usr/share/doc/pkgfile/command-not-found.zsh
 
 source $ZSH/oh-my-zsh.sh
 
@@ -156,7 +159,7 @@ source ~/fzf-git.sh/fzf-git.sh
 alias cat="bat"
 
 # Eza
-alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
+# alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 alias tree="eza --tree"
 
 # The Fuck
